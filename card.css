@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.card-box-sh{
+    width: 250px;
+    height: 333px;
+    background-image: url(./images/lasvegas.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    padding: 32px 24px;
+    
+    position: relative;
+    transition: background-size 3s ease;
+}
+.card-box-sh:hover{
+    background-size: 110%;
+    
+    border-radius: 10px;
+}
+.card-header-sh{
+    padding: 10px;
+}
+.card-title-sh{
+    color: white;
+    font-size: 26px;
+    font-weight: 900;
+}
+.card-content-sh {
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+.card-box-sh a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    
+    position: absolute;
+    bottom: 30px;
+}
